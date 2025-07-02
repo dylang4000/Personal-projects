@@ -1,11 +1,35 @@
+
+tr,td,th{
+    font-size: 200%;
+    border: solid black 9px;
+    background-color: #8B8C8B;
+}
+
+body{
+    background-color: #252625;
+}
+td{
+    padding: 1rem;
+}
+
 #monthcontainer{
     display: flex;
     justify-content: center;
 }
-tr,td,th{
-    font-size: 200%;
-    border: solid black 9px
+
+.weekheader{
+    cursor: default;
+    
+
+   
 }
-td{
-    padding: 1rem;
+.month,.weekday{
+    background-color:#8B8C8B;
+}
+
+.weekday:hover,.month:hover{
+    cursor:pointer;
+    background-color: #6c6c6c;
+    animation: ease-out;
+    
 }
