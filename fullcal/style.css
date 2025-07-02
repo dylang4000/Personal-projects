@@ -1,0 +1,11 @@
+#monthcontainer{
+    display: flex;
+    justify-content: center;
+}
+tr,td,th{
+    font-size: 200%;
+    border: solid black 9px
+}
+td{
+    padding: 1rem;
+}
